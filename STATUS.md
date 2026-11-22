@@ -23,7 +23,7 @@
 
 ```bash
 # Install
-cd ~/Scriptorium/Devel/UncleTallest/organizations/continuity-bridge/Erebos
+cd ~/Scriptorium/Devel/UncleTallest/organizations/reclamation-bridge/erebos
 make install-dev
 
 # Test
@@ -82,5 +82,5 @@ python prototype_failure_tracker.py
 
 ---
 
-**Repository:** https://github.com/continuity-bridge/Erebos  
+**Repository:** https://github.com/reclamation-bridge/erebos  
 **Issues:** #5 (Setup) done, #6 (FailureTracker) done

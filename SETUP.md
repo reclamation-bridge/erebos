@@ -14,7 +14,7 @@ Quick start guide for contributing to erebos.
 
    ```bash
    cd ~/Scriptorium/Devel/UncleTallest/organizations/continuity-bridge
-   git clone https://github.com/continuity-bridge/Erebos.git
+   git clone https://github.com/reclamation-bridge/erebos.git
    cd Erebos
    ```
 

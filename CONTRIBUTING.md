@@ -164,6 +164,8 @@ See docs/code-style.md in this repository for complete guidelines.
 5. Commit with clear messages
 6. Push to your fork
 7. Open a Pull Request
+8. **First contribution?** Sign the [CLA](CLA.md#how-to-sign) in the same pull request.
+   Pull requests without a signed CLA can't be merged.
 
 **PR guidelines:**
 
@@ -177,6 +179,7 @@ See docs/code-style.md in this repository for complete guidelines.
 - Maintainer will review within a few days
 - May request changes or clarification
 - PRs that don't fit project goals will be closed with explanation
+- PRs from contributors without a signed CLA are held until the CLA is signed
 - All PRs require maintainer approval to merge
 
 ---
@@ -209,11 +212,28 @@ This isn't personal - it's about keeping the project focused.
 
 ---
 
-## Licensing
+## Licensing and the Contributor License Agreement
 
-By contributing, you agree that your contributions will be licensed under GPL-3.0.
+erebos is dual-licensed: open source under the
+[GNU Affero General Public License v3.0](LICENSE) (AGPL-3.0), and under a separate
+[commercial license](COMMERCIAL-LICENSE.md) that funds development.
 
-If you need a commercial exception for your employer's use, contact the maintainer to discuss dual licensing terms.
+**Before your first pull request can be merged, you need to sign the
+[Contributor License Agreement](CLA.md) (CLA).** It's short. In plain terms:
+
+- You keep ownership of your work.
+- You let the maintainer license your contribution under both the AGPL and the commercial
+  license. Without this, dual licensing can't work.
+- The maintainer promises your contribution will always stay available as open source.
+
+**To sign:** paste the agreement line from [CLA.md](CLA.md#how-to-sign) into your first pull
+request description, and add yourself to [CLA-SIGNATORIES.md](CLA-SIGNATORIES.md) in the same
+pull request.
+
+**Contributing for your employer?** They may need to sign a Corporate CLA. Ask first:
+tallest@uncletallest-productions.org.
+
+**Need a commercial license for your own use?** See [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md).
 
 ---
 

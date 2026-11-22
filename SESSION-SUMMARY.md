@@ -152,8 +152,8 @@ make lint    # Run all linters
 
 ---
 
-**Repository:** `/home/youruser/Scriptorium/Devel/UncleTallest/organizations/continuity-bridge/erebos`  
-**GitHub:** https://github.com/continuity-bridge/erebos  
+**Repository:** `/home/youruser/Scriptorium/Devel/UncleTallest/organizations/reclamation-bridge/erebos`  
+**GitHub:** https://github.com/reclamation-bridge/erebos  
 **Issue #6 (FailureTracker):** Complete ✓
 
 ---

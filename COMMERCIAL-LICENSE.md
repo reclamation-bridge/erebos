@@ -1,6 +1,7 @@
 # Commercial License for erebos
 
-**Last Updated:** March 9, 2026
+**Last Updated:** November 22,2026 (v2.0, replaces v1.0 of March 9, 2026, which was
+never in effect for any release)
 
 ---
 
@@ -8,22 +9,32 @@
 
 Erebos is dual-licensed:
 
-- **Open Source:** Available under GPL-3.0 for individuals, open source projects, and GPL-compatible use
-- **Commercial:** Available under a proprietary license for organizations that cannot or prefer not to use GPL-3.0
+- **Open Source:** Available under the GNU Affero General Public License v3.0 (AGPL-3.0) for
+  individuals, open source projects, and AGPL-compatible use
+- **Commercial:** Available under a proprietary license for organizations that cannot or prefer
+  not to use AGPL-3.0
 
 This document describes the commercial licensing option.
 
 ---
 
-## What is GPL-3.0 and Why Does It Matter?
+## What is AGPL-3.0 and Why Does It Matter?
 
-The GNU General Public License v3.0 (GPL-3.0) is a "copyleft" license that requires:
+The GNU Affero General Public License v3.0 (AGPL-3.0) is a "copyleft" license. It works like the
+GPL-3.0, with one addition for software used over a network:
 
-1. **Derivative works must also be GPL-3.0** - If you modify Erebos and distribute your changes, you must open source those changes under GPL-3.0
-2. **Combined works must be GPL-3.0** - If you integrate Erebos into a larger application, the entire application must be GPL-3.0
-3. **Source code must be made available** - Users of your software must have access to the complete source code
+1. **Derivative works must also be AGPL-3.0.** If you modify Erebos and distribute your changes,
+   you must release those changes under AGPL-3.0.
+2. **Combined works must be AGPL-3.0.** If you distribute a larger application that incorporates
+   Erebos, the whole application must be licensed under AGPL-3.0.
+3. **Source code must be made available** to anyone you distribute the software to.
+4. **The network clause:** if you modify Erebos and let people use it over a network (for
+   example, as a hosted service), you must offer those users the complete source code of your
+   modified version. Under plain GPL-3.0, hosting without distributing triggered no obligation;
+   under AGPL-3.0 it does.
 
-**For many organizations, this is incompatible with proprietary software development.**
+**For many organizations, this is incompatible with proprietary software development or hosted
+offerings.**
 
 ---
 
@@ -32,18 +43,23 @@ The GNU General Public License v3.0 (GPL-3.0) is a "copyleft" license that requi
 You need a commercial license if:
 
 - ✅ You're building a **proprietary product** that integrates Erebos
-- ✅ You're creating a **closed-source tool** for internal use that includes Erebos
+- ✅ You're creating a **closed-source tool** that includes Erebos and is distributed or offered
+  to users outside your organization
 - ✅ You want to **modify Erebos** without releasing your changes as open source
-- ✅ Your organization's **legal policy prohibits GPL-licensed dependencies**
-- ✅ You're offering a **SaaS or hosted service** that incorporates Erebos
+- ✅ Your organization's **legal policy prohibits AGPL-licensed dependencies**
+- ✅ You're offering a **SaaS or hosted service** built on a modified Erebos without publishing
+  your modified source to its users
 - ✅ You want to **resell or redistribute** Erebos as part of a commercial offering
+- ✅ You're distributing **Slate**, or a product built on Slate, without meeting AGPL-3.0
+  (Slate ships with the Erebos core; see "Slate" below)
 
 You **do NOT need a commercial license** if:
 
 - ❌ You're using Erebos for personal use
-- ❌ You're contributing to open source projects (GPL-compatible)
-- ❌ You're building an internal tool and are comfortable open-sourcing it
-- ❌ Your organization can comply with GPL-3.0 requirements
+- ❌ You're contributing to open source projects (AGPL-compatible)
+- ❌ You're using Erebos unmodified, or you're comfortable publishing your modifications under
+  AGPL-3.0
+- ❌ Your organization can comply with AGPL-3.0 requirements
 
 ---
 
@@ -51,12 +67,14 @@ You **do NOT need a commercial license** if:
 
 A commercial license grants you:
 
-1. **Freedom from GPL copyleft** - No requirement to open source your derivative works or combined applications
-2. **Proprietary use rights** - Build closed-source products incorporating Erebos
-3. **Modification rights** - Modify the code without sharing changes publicly
-4. **Redistribution rights** - Include Erebos in commercial products or services
-5. **Patent protection** - Same patent grant as GPL-3.0, protecting you from patent claims
-6. **Support and updates** - Access to priority support and commercial release branches (optional tier)
+1. **Freedom from AGPL copyleft:** no requirement to release your derivative works, combined
+   applications, or hosted modifications as open source
+2. **Proprietary use rights:** build closed-source products and services incorporating Erebos
+3. **Modification rights:** modify the code without sharing changes publicly
+4. **Redistribution rights:** include Erebos in commercial products or services
+5. **Patent protection:** same patent grant as AGPL-3.0, protecting you from patent claims
+6. **Support and updates:** access to priority support and commercial release branches
+   (optional tier)
 
 ---
 
@@ -99,21 +117,35 @@ For organizations with specific needs:
 - Multi-year agreements (discounted rates)
 - Custom feature development
 - Dedicated support channels
-- On-premise deployment assistance
+- On-premise deployment assistance (including self-hosted deployments in regulated
+  environments; regulatory compliance of your deployment remains your responsibility)
 - Training and onboarding
 
 **Contact for pricing:** Based on requirements and scale
 
 ---
 
+## Slate
+
+Slate is the simplified, non-technical edition built on the Erebos core.
+
+- **Slate's own interface code** is licensed under the BSD 3-Clause license and can be reused
+  freely on its own.
+- **The Erebos core that Slate runs on** is covered by this dual license (AGPL-3.0 or
+  commercial).
+- **Distributing Slate as a complete application** therefore means meeting AGPL-3.0 for the
+  whole, or holding an Erebos commercial license, which covers the Erebos core as used in Slate.
+
+---
+
 ## How to Purchase
 
-1. **Email:** [tallest@ohmytallest.productions](mailto:tallest@ohmytallest.productions)
+1. **Email:** [tallest@uncletallest-productions.org](mailto:tallest@uncletallest-productions.org)
 2. **Subject:** "Commercial License Request - Erebos"
 3. **Include:**
    - Organization name
    - Number of developers
-   - Intended use case
+   - Intended use case (including whether it involves Slate or a hosted service)
    - Tier preference (or request custom quote)
 
 You will receive:
@@ -132,10 +164,10 @@ You will receive:
 
 Upon payment, you receive a non-exclusive, worldwide, royalty-free license to:
 
-- Use Erebos in proprietary applications
+- Use Erebos in proprietary applications and services
 - Modify the source code for your purposes
 - Distribute modified or unmodified versions as part of your products
-- Create derivative works without GPL obligations
+- Create derivative works without AGPL obligations
 
 ### Restrictions
 
@@ -143,7 +175,7 @@ You may NOT:
 
 - Relicense Erebos under a different license
 - Remove copyright notices or attribution
-- Use the Erebos name or trademarks without permission
+- Use the Erebos or Slate names or trademarks without permission
 - Hold the author liable for damages (software provided "AS IS")
 
 ### Term and Renewal
@@ -165,36 +197,50 @@ License terminates if:
 
 ## Frequently Asked Questions
 
-**Q: Can I try before buying?**  
-A: Yes. Use the GPL-3.0 version for evaluation. If you decide to build a proprietary product, purchase a commercial license before deployment.
+**Q: Can I try before buying?**
+A: Yes. Use the AGPL-3.0 version for evaluation. If you decide to build a proprietary product or
+hosted service, purchase a commercial license before deployment.
 
-**Q: Do I need a license for development/testing?**  
-A: No. You can develop and test under GPL-3.0. Purchase a commercial license before distributing or deploying proprietary products.
+**Q: Do I need a license for development/testing?**
+A: No. You can develop and test under AGPL-3.0. Purchase a commercial license before you
+distribute a proprietary product or put a modified version in front of users over a network.
 
-**Q: What if I'm a solo indie developer?**  
-A: If you're comfortable with GPL-3.0 (open sourcing your product), use the free version. If you want to build a proprietary product, Single Developer License ($500/year) is your option.
+**Q: What if I'm a solo indie developer?**
+A: If you're comfortable with AGPL-3.0 (open sourcing your product), use the free version. If
+you want to build a proprietary product, the Single Developer License ($500/year) is your option.
 
-**Q: Can I get a discount for non-profits or educational institutions?**  
-A: Contact us. We offer case-by-case consideration for non-profits, educational institutions, and open source organizations with valid use cases.
+**Q: I host Erebos internally for my own team. Does the network clause apply?**
+A: If you run it unmodified, no source obligation arises. If you modify it and users interact
+with it over a network, AGPL-3.0 requires offering those users your modified source, unless you
+hold a commercial license.
 
-**Q: What happens if I stop paying after the first year?**  
-A: You retain rights to the version(s) licensed during your active period. You lose access to new updates and support.
+**Q: Can I get a discount for non-profits or educational institutions?**
+A: Contact us. We offer case-by-case consideration for non-profits, educational institutions,
+and open source organizations with valid use cases.
 
-**Q: Can I switch from GPL to commercial mid-project?**  
-A: Yes. Any code you wrote under GPL-3.0 remains GPL-3.0 unless you rewrite it. New code can be proprietary under commercial license.
+**Q: What happens if I stop paying after the first year?**
+A: You retain rights to the version(s) licensed during your active period. You lose access to
+new updates and support.
 
-**Q: Is support guaranteed?**  
-A: Best-effort support is included. Response times are targets, not guarantees. For guaranteed SLA support, contact us for custom enterprise terms.
+**Q: Can I switch from AGPL to commercial mid-project?**
+A: Yes. Purchase before your next distribution or deployment. Anything you already distributed
+under AGPL-3.0 stays available to its recipients under AGPL-3.0; from the purchase on, your
+releases can be under the commercial terms.
+
+**Q: Is support guaranteed?**
+A: Best-effort support is included. Response times are targets, not guarantees. For guaranteed
+SLA support, contact us for custom enterprise terms.
 
 ---
 
 ## Why Dual Licensing?
 
-**For users:** Free open source software for individuals and GPL-compatible projects.
+**For users:** Free open source software for individuals and AGPL-compatible projects.
 
-**For businesses:** Option to build proprietary products without GPL restrictions.
+**For businesses:** Option to build proprietary products and services without AGPL restrictions.
 
-**For the project:** Sustainable funding to continue development, pay for infrastructure, and support the community.
+**For the project:** Sustainable funding to continue development, pay for infrastructure, and
+support the community.
 
 **For the author:** Ability to work on this full-time if commercial adoption reaches that scale.
 
@@ -204,10 +250,12 @@ A: Best-effort support is included. Response times are targets, not guarantees. 
 
 Regardless of commercial licensing:
 
-- The core project remains open source under GPL-3.0
+- The core project remains open source under AGPL-3.0
 - All releases are published publicly
-- Community contributions are welcomed and credited
-- GPL-3.0 users receive the same features as commercial users
+- Community contributions are welcomed and credited. Contributors sign a short
+  [Contributor License Agreement](CLA.md) so their work can be offered under both licenses,
+  and the maintainer commits that accepted contributions always stay available as open source
+- AGPL-3.0 users receive the same features as commercial users
 - No "commercial-only" features (support and legal terms differ, not functionality)
 
 Commercial licensing supports development of features that benefit everyone.
@@ -216,14 +264,14 @@ Commercial licensing supports development of features that benefit everyone.
 
 ## Contact
 
-**Questions about commercial licensing:**  
-Email: [tallest@ohmytallest.productions](mailto:tallest@ohmytallest.productions)
+**Questions about commercial licensing:**
+Email: [tallest@uncletallest-productions.org](mailto:tallest@uncletallest-productions.org)
 
-**Questions about the open source version:**  
-Use [GitHub Discussions](https://github.com/continuity-bridge/Erebos/discussions)
+**Questions about the open source version:**
+Use [GitHub Discussions](https://github.com/reclamation-bridge/erebos/discussions)
 
-**Bug reports and feature requests:**  
-Use [GitHub Issues](https://github.com/continuity-bridge/Erebos/issues)
+**Bug reports and feature requests:**
+Use [GitHub Issues](https://github.com/reclamation-bridge/erebos/issues)
 
 ---
 
@@ -231,15 +279,16 @@ Use [GitHub Issues](https://github.com/continuity-bridge/Erebos/issues)
 
 This commercial license is offered by:
 
-**Jerry Jackson (Uncle Tallest)**  
-OhMyTallest Productions  
+**Jerry Jackson (Uncle Tallest)**
+Uncle Tallest Productions
 Austin, Texas, USA
 
-The software is provided "AS IS" without warranty of any kind. The author is not liable for damages arising from use of the software. See LICENSE file for GPL-3.0 terms.
+The software is provided "AS IS" without warranty of any kind. The author is not liable for
+damages arising from use of the software. See LICENSE file for AGPL-3.0 terms.
 
 ---
 
-**Version:** 1.0  
-**Effective:** March 9, 2026  
-**Author:** Jerry Jackson  
-**Repository:** https://github.com/continuity-bridge/Erebos
+**Version:** 2.0 (DRAFT)
+**Effective:** [DATE OF SWITCH]
+**Author:** Jerry Jackson
+**Repository:** https://github.com/reclamation-bridge/erebos

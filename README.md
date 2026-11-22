@@ -4,7 +4,8 @@
 
 erebos - the agnostic harness
 
-[![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](LICENSE)
+[![License: AGPL-3.0-only](https://img.shields.io/badge/License-AGPL--3.0--only-blue.svg)](LICENSE)
+[![Commercial license available](https://img.shields.io/badge/Commercial-license_available-green.svg)](COMMERCIAL-LICENSE.md)
 [![Python](https://img.shields.io/badge/Python-3.11+-green.svg)](https://python.org)
 [![GTK](https://img.shields.io/badge/GTK-4.0-orange.svg)](https://gtk.org)
 
@@ -80,7 +81,7 @@ The hook system is the intelligence layer that makes Erebos proactive instead of
 - Symlinks to Substrate for single source of truth
 - Graceful fallback if FOUNDATION missing
 
-###### See [Discussion: FOUNDATION Integration](https://github.com/continuity-bridge/Erebos/discussions/3) for community feedback.
+###### See [Discussion: FOUNDATION Integration](https://github.com/reclamation-bridge/erebos/discussions/3) for community feedback.
 
 Erebos solves these developer-specific problems.
 
@@ -119,7 +120,7 @@ Erebos solves these developer-specific problems.
 - Plugin architecture
 - Complete documentation
 
-See [Roadmap](https://github.com/continuity-bridge/Erebos/wiki/Roadmap) for detailed timeline.
+See [Roadmap](https://github.com/reclamation-bridge/erebos/wiki/Roadmap) for detailed timeline.
 
 ---
 
@@ -129,15 +130,15 @@ We're in the planning phase - perfect time to shape the project!
 
 **Active Discussions:**
 
-[Window Layout: Tabs vs Panes vs Hybrid?](https://github.com/continuity-bridge/Erebos/discussions/1)
+[Window Layout: Tabs vs Panes vs Hybrid?](https://github.com/reclamation-bridge/erebos/discussions/1)
 
-[What features would make this useful for your workflow?](https://github.com/continuity-bridge/Erebos/discussions/2)
+[What features would make this useful for your workflow?](https://github.com/reclamation-bridge/erebos/discussions/2)
 
-[Support loading FOUNDATION utilities and tools](https://github.com/continuity-bridge/Erebos/discussions/3)
+[Support loading FOUNDATION utilities and tools](https://github.com/reclamation-bridge/erebos/discussions/3)
 
 Ways to contribute:
 
-- Share your workflow pain points in [Discussions](https://github.com/continuity-bridge/Erebos/discussions)
+- Share your workflow pain points in [Discussions](https://github.com/reclamation-bridge/erebos/discussions)
 - Vote on design decisions
 - Review hook system architecture docs
 - Test on your distro when v0.1 releases
@@ -157,7 +158,7 @@ pip install Erebos
 Erebos
 ```
 
-For development setup, see [Wiki: Development Setup](https://github.com/continuity-bridge/Erebos/wiki/Development-Setup).
+For development setup, see [Wiki: Development Setup](https://github.com/reclamation-bridge/erebos/wiki/Development-Setup).
 
 ---
 
@@ -173,15 +174,15 @@ For development setup, see [Wiki: Development Setup](https://github.com/continui
 - Companies building proprietary products: Contact for commercial licensing
 - All code stays open source regardless
 
-See [Wiki: Design Decisions](https://github.com/continuity-bridge/Erebos/wiki/Design-Decisions#license-dual-licensing-gpl-30--commercial) for details on dual licensing.
+See [Wiki: Design Decisions](https://github.com/reclamation-bridge/erebos/wiki/Design-Decisions#license-dual-licensing-gpl-30--commercial) for details on dual licensing.
 
 ---
 
 ## Project Links
 
-- **Roadmap:** [Wiki: Roadmap](https://github.com/continuity-bridge/Erebos/wiki/Roadmap)
-- **Design Decisions:** [Wiki: Design Decisions](https://github.com/continuity-bridge/Erebos/wiki/Design-Decisions)
-- **Discussions:** [Community Forum](https://github.com/continuity-bridge/Erebos/discussions)
+- **Roadmap:** [Wiki: Roadmap](https://github.com/reclamation-bridge/erebos/wiki/Roadmap)
+- **Design Decisions:** [Wiki: Design Decisions](https://github.com/reclamation-bridge/erebos/wiki/Design-Decisions)
+- **Discussions:** [Community Forum](https://github.com/reclamation-bridge/erebos/discussions)
 - **Project Board:** [Development Progress](https://github.com/orgs/continuity-bridge/projects/2)
 - **Hook System Docs:** [docs/](docs/)
 

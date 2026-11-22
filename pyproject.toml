@@ -8,7 +8,7 @@ version = "0.1.0-dev"
 description = "Network-agnostic LLM harness with multi-provider routing and GTK4 interface"
 readme = "README.md"
 requires-python = ">=3.11"
-license = {text = "GPL-3.0-or-later"}
+license = {text = "AGPL-3.0-only"}
 authors = [
     {name = "Jerry Jackson", email = "ohmytallest@gmail.com"}
 ]
@@ -16,7 +16,7 @@ keywords = ["llm", "ollama", "claude", "gemini", "gtk4", "ai", "linux"]
 classifiers = [
     "Development Status :: 2 - Pre-Alpha",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
     "Operating System :: POSIX :: Linux",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.11",
@@ -56,10 +56,10 @@ dev = [
 ]
 
 [project.urls]
-Homepage      = "https://github.com/continuity-bridge/erebos"
-Repository    = "https://github.com/continuity-bridge/erebos"
-Issues        = "https://github.com/continuity-bridge/erebos/issues"
-Documentation = "https://github.com/continuity-bridge/erebos/wiki"
+Homepage      = "https://github.com/reclamation-bridge/erebos"
+Repository    = "https://github.com/reclamation-bridge/erebos"
+Issues        = "https://github.com/reclamation-bridge/erebos/issues"
+Documentation = "https://github.com/reclamation-bridge/erebos/wiki"
 
 [project.scripts]
 erebos = "erebos.main:main"
