@@ -8,6 +8,12 @@ supersedes_assumptions_in: erebos-architectural-integration-vs-pipeline-findings
 
 # Erebos — Auth Models & the ToS Precipice (decided 2026-06-25)
 
+> **Update 2026-11-22:** this decision still holds and Anthropic has since made it explicit.
+> The session-token tooling and cookie-cloning research it refers to were removed from the
+> repository; references below to `erebos-tokens.py` and the "harness profiles" are
+> historical. Some details here have changed (API credits, Cowork); see
+> [REVERIFICATION-2026-11-22.md](REVERIFICATION-2026-11-22.md).
+
 Worked out live with the operator. Records WHY the model layer is the documented API,
 so it isn't re-litigated.
 
@@ -17,7 +23,7 @@ so it isn't re-litigated.
   separate product + billing from claude.ai (a Pro/Max sub does NOT include API credits).
 - `sk-ant-sid02-…` — **claude.ai session token** (the `sessionKey` cookie). Auths
   **claude.ai's own backend** (the app's endpoint), sent as a Cookie. Cannot auth the
-  Messages API. Extracted by `research/erebos-tokens.py` for the 4 harness profiles.
+  Messages API. (Formerly extracted by `research/erebos-tokens.py`; removed 2026-11-22.)
 
 ## Two execution models
 - **Model A — API providers** (`claude.py` + `_run_agent`): Messages API, `api03` key.
