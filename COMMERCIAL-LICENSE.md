@@ -1,6 +1,6 @@
 # Commercial License for erebos
 
-**Last Updated:** November 22,2026 (v2.0, replaces v1.0 of March 9, 2026, which was
+**Last Updated:** November 22, 2026 (v2.0, replaces v1.0 of March 9, 2026, which was
 never in effect for any release)
 
 ---
