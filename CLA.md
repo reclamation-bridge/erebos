@@ -80,7 +80,8 @@ representations in section 5 or 6 inaccurate.
 
 ## 10. Governing law
 
-Texas, USA
+This agreement is governed by the laws of the State of Texas, USA.
+
 ---
 
 ## How to sign
