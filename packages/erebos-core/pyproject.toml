@@ -1,0 +1,53 @@
+# SPDX-License-Identifier: AGPL-3.0-only
+# Copyright (C) 2026 Jerry Jackson
+
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "erebos-core"
+version = "0.0.1.dev0"
+description = "The engine behind erebos and Slate: model-agnostic providers, agent loop, tools, events, and routing. No UI."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "AGPL-3.0-only"}
+authors = [
+    {name = "Uncle Tallest", email = "tallest@uncletallest-productions.org"}
+]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+# The base install stays small. Everything vendor- or OS-specific is an extra.
+dependencies = [
+    "requests>=2.31.0",
+    "PyYAML>=6.0.1",
+]
+
+[project.optional-dependencies]
+anthropic = ["anthropic>=0.34.0"]   # Claude via the Messages API, API-key auth only
+mcp       = ["mcp"]                 # MCP tool execution (stdio and other transports)
+discovery = ["zeroconf>=0.148.0"]   # mDNS discovery of local/network nodules
+landlock  = ["landlock"]            # optional Linux isolation layer (no bubblewrap)
+dev = [
+    "pytest>=7.4.0",
+]
+
+[project.urls]
+Homepage   = "https://github.com/reclamation-bridge/erebos"
+Repository = "https://github.com/reclamation-bridge/erebos"
+Issues     = "https://github.com/reclamation-bridge/erebos/issues"
+
+[tool.setuptools.packages.find]
+where   = ["."]
+include = ["erebos_core*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
