@@ -19,8 +19,8 @@ from here. Sources are listed at the end. *Not legal advice.*
 
 ## 0. Action first: auth-harness material is public and should come out
 
-Before anything else. These files are in the **public** repo (`reclamation-bridge/erebos`, since
-commit `88505bb`, 2026-06-24):
+Before anything else. These files were in the **public** repo (`reclamation-bridge/erebos`) from
+2026-06-24:
 
 | File | What it does |
 |---|---|
@@ -43,8 +43,9 @@ Services include associated apps and software.
 **Recommendation:**
 1. **Done 2026-11-22:** all eight files above removed from `main` in the commit that added this
    file. Private copies kept outside the public repo.
-2. Optionally rewrite public history (`git filter-repo`) to drop them entirely. The repo is
-   unreleased with 2 stars, so the cost is low, but it changes every hash. Your call.
+2. **Decided 2026-11-22:** public history rewritten with `git filter-repo` so the files are gone
+   from every commit, not just from `main` (unreleased repo, 2 stars, 0 forks). Commit hashes
+   from before the rewrite no longer exist.
 3. Keep `erebos-auth-and-tos-decision-2026-06-25.md`. It's the record of *why*, and it holds up.
 
 Note: the extracted Anthropic daemon source (`research/extracted-app/cowork-vm-service.js`) was
