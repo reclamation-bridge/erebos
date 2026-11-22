@@ -288,7 +288,7 @@ damages arising from use of the software. See LICENSE file for AGPL-3.0 terms.
 
 ---
 
-**Version:** 2.0 (DRAFT)
-**Effective:** [DATE OF SWITCH]
+**Version:** 2.0
+**Effective:** November 22, 2026
 **Author:** Jerry Jackson
 **Repository:** https://github.com/reclamation-bridge/erebos

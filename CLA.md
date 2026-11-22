@@ -1,6 +1,6 @@
 # erebos Individual Contributor License Agreement
 
-**Version:** 1.0 (DRAFT, not yet in effect)
+**Version:** 1.0 
 **Maintainer:** Jerry Jackson (Uncle Tallest), Uncle Tallest Productions, Austin, Texas, USA
 
 > **Why this exists:** erebos is dual-licensed: open source under the GNU Affero General
@@ -80,8 +80,7 @@ representations in section 5 or 6 inaccurate.
 
 ## 10. Governing law
 
-[TO DECIDE WITH COUNSEL: governing law and venue.]
-
+Texas, USA
 ---
 
 ## How to sign
