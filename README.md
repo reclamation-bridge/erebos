@@ -164,17 +164,17 @@ For development setup, see [Wiki: Development Setup](https://github.com/reclamat
 
 ## Licensing
 
-**Open Source:** GPL-3.0 (see [LICENSE](LICENSE))
+**Open Source:** AGPL-3.0-only (see [LICENSE](LICENSE))
 
-**Commercial Licensing:** Available for companies that need GPL exceptions.
+**Commercial Licensing:** Available for organizations that can't meet AGPL-3.0 terms.
 
 **What does this mean?**
 
-- Individual developers and GPL-compatible projects: Free forever
-- Companies building proprietary products: Contact for commercial licensing
+- Individual developers and AGPL-compatible projects: Free forever
+- Companies building proprietary products, or offering a modified erebos as a hosted service: Contact for commercial licensing
 - All code stays open source regardless
 
-See [Wiki: Design Decisions](https://github.com/reclamation-bridge/erebos/wiki/Design-Decisions#license-dual-licensing-gpl-30--commercial) for details on dual licensing.
+See [COMMERCIAL-LICENSE.md](COMMERCIAL-LICENSE.md) for tiers and terms, and [CLA.md](CLA.md) for contributions.
 
 ---
 
