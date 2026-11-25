@@ -1,6 +1,6 @@
 ---
 name: Feature Request
-about: Suggest a feature for claude-devel-client
+about: Suggest a feature for erebos
 title: '[FEATURE] '
 labels: enhancement
 assignees: ''
@@ -8,7 +8,7 @@ assignees: ''
 
 **Please discuss in Discussions first**
 
-For feature requests, please start a discussion in [Ideas](https://github.com/continuity-bridge/claude-devel-client/discussions/categories/ideas) before creating an issue.
+For feature requests, please start a discussion in [Ideas](https://github.com/reclamation-bridge/erebos/discussions/categories/ideas) before creating an issue.
 
 This ensures:
 - The feature aligns with project goals
